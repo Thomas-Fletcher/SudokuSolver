@@ -2,7 +2,7 @@
 Coding Challenge for a job interview. Jedi council in need of a Basic Sudoku Solver
 
 To run application either:
-1.
+
 ``` bash
 git clone https://github.com/Thomas-Fletcher/SudokuSolver.git
 cd SudokuSolver/SudokuSolver
@@ -10,7 +10,8 @@ dotnet build
 ./bin/debug/SudokuSolver.exe
 ```
 
-2.
+OR
+
 Open up SudokuSolver.sln in Visual Studio 
 -> Build 
 -> Run.
