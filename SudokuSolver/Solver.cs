@@ -51,7 +51,7 @@ namespace SudokuSolver
                 {
                     if (table[row][i] == c ||
                         table[i][col] == c ||
-                        table[(row - row % 3) + i % 3][(col - col % 3) + i % 3] == c)
+                        table[(row - row % 3) + i / 3][(col - col % 3) + i % 3] == c)
                     {
                         match = true;
                         break;
